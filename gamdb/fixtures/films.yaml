@@ -1,0 +1,498 @@
+- model: films.movie
+  pk: 1
+  fields:
+    name: Vykoupení z věznice Shawshank
+    year: 1994
+    slug: '99'
+    description: Mladý bankéř Andy Dufresne (Tim Robbins) je v roce 1947 odsouzen
+      za vraždu své ženy a jejího milence. Přesto, že tento čin popírá, čeká na něj
+      dvojnásobný doživotní trest v obávané věznici Shawshank.
+    avg_rating: null
+    image_url: //image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/505/162505167_735db9.jpg
+    director: 6
+    genres:
+    - 4
+    - 9
+- model: films.movie
+  pk: 2
+  fields:
+    name: Kmotr
+    year: 1972
+    slug: '29'
+    description: Gangsterské drama Kmotr, natočené podle stejnojmenného bestselleru
+      Maria Puza, patří mezi přelomová díla tzv. Nového Hollywoodu, a to jak komerčně,
+      tak umělecky.
+    avg_rating: null
+    image_url: //image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/362/162362236_a2f3bc.jpg
+    director: 7
+    genres:
+    - 4
+    - 9
+- model: films.movie
+  pk: 3
+  fields:
+    name: Temný rytíř
+    year: 2008
+    slug: '27'
+    description: Další Batmanovo dobrodružství začíná. Jeho protivníkem je tentokrát
+      záhadný psychopat Joker. Vítanou posilou by se Batmanovi mohl stát nový státní
+      zástupce Harvey Dent, idealistický právník odhodlaný bojovat zejména proti mafiím
+      ovládajícím podsvětí města.
+    avg_rating: null
+    image_url: //image.pmgstatic.com/cache/resized/w140/files/images/film/posters/000/071/71968_2c8b23.jpg
+    director: 8
+    genres:
+    - 4
+    - 6
+    - 9
+- model: films.movie
+  pk: 4
+  fields:
+    name: Kmotr II
+    year: 1974
+    slug: '26'
+    description: Jsme větší než U. S. Steel. Al Pacino a Robert De Niro v hlavních
+      rolích pokračování slavné mafiánské ságy, oceněné šesti Oscary... Mimořádný
+      úspěch Kmotra (1972) ve světových kinech logicky vedl k okamžitým úvahám o natočení
+      pokračování, k němuž koneckonců vybízel i relativně otevřený konec originálu.
+    avg_rating: null
+    image_url: //image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/362/162362237_7577f9.jpg
+    director: 7
+    genres:
+    - 4
+    - 9
+- model: films.movie
+  pk: 5
+  fields:
+    name: Dvanáct rozhněvaných mužů
+    year: 1957
+    slug: '26'
+    description: Dvanáct porotců má jednomyslně rozhodnout o vině či nevině mladého
+      muže, který je obviněn z vraždy svého otce. Porotci jsou průměrní Američané
+      s obyčejnými zájmy a zaměstnáním.
+    avg_rating: null
+    image_url: https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/160/422/160422509_e42e9b.jpg
+    director: 9
+    genres:
+    - 4
+    - 9
+- model: films.movie
+  pk: 6
+  fields:
+    name: Schindlerův seznam
+    year: 1993
+    slug: '25'
+    description: Hluboce šokující, nemilosrdné drama o noční můře holocaustu, založené
+      na skutečných událostech. Na záchranu 1100 životů obětoval Oskar Schindler veškeré
+      své jmění... Polský Krakov 1939. Židovská obec je vystavována stále se zvyšujícímu
+      tlaku ze strany nacistů.
+    avg_rating: null
+    image_url: //image.pmgstatic.com/cache/resized/w140/files/images/film/posters/163/153/163153410_9a7943.png
+    director: 1
+    genres:
+    - 4
+- model: films.movie
+  pk: 7
+  fields:
+    name: 'Pán prstenů: Návrat krále'
+    year: 2003
+    slug: '24'
+    description: Nadchází čas rozhodující bitvy o přežití Středozemě. Putování jednotlivých
+      členů Společenstva prstenu se dostává do poslední a rozhodující fáze. Čaroděj
+      Gandalf, elf Legolas a trpaslík Gimli spěchají s dědicem trůnu Aragornem na
+      pomoc zemi Gondor, která odolává ohromnému Sauronovu vojsku.
+    avg_rating: null
+    image_url: //image.pmgstatic.com/cache/resized/w140/files/images/film/posters/158/600/158600814_9bc57f.jpg
+    director: 10
+    genres:
+    - 8
+- model: films.movie
+  pk: 8
+  fields:
+    name: 'Pulp Fiction: Historky z podsvětí'
+    year: 1994
+    slug: '23'
+    description: Nejkultovnější z kultovních filmů 90. let je autorskou Biblí Quentina
+      Tarantina, který v tomto opusu definoval základní prvky své režisérské poetiky
+      a vytvořil dílo rozněcující náročné kritiky na festivalu v Cannes, levicové
+      a pravicové intelektuály i zedníky dopřávající si po těžké šichtě trochu oddychu.
+    avg_rating: null
+    image_url: //image.pmgstatic.com/cache/resized/w140/files/images/film/posters/158/336/158336635_61bc7c.jpg
+    director: 11
+    genres:
+    - 4
+    - 9
+- model: films.movie
+  pk: 9
+  fields:
+    name: 'Pán prstenů: Společenstvo prstenu'
+    year: 2001
+    slug: '22'
+    description: V dávných dobách byl vykován kouzelný prsten, který vlastnil pán
+      Mordoru Sauron. Jeho moc začal využívat k šíření zla, ale o prsten nakonec v
+      boji přišel, a ten na dlouhá léta zmizel. Nakonec ho našel hobit Bilbo Pytlík,
+      který díky němu přestal stárnout.
+    avg_rating: null
+    image_url: //image.pmgstatic.com/cache/resized/w140/files/images/film/posters/158/600/158600806_7b6c15.jpg
+    director: 10
+    genres:
+    - 8
+- model: films.movie
+  pk: 10
+  fields:
+    name: Hodný, Zlý a Ošklivý
+    year: 1966
+    slug: '21'
+    description: Hodný, zlý a ošklivý je klasickým westernovým příběhem o chamtivosti
+      a pomstě uprostřed běsnění občanské války Severu proti Jihu. Podvodník, desperát
+      a ošklivec Tuco (Eli Wallach) je hledaný ve čtrnácti okresech a na jeho hlavu
+      je vypsaná odměna dvou tisíc dolarů.
+    avg_rating: null
+    image_url: //image.pmgstatic.com/cache/resized/w140/files/images/film/posters/000/005/5426_0095df.jpg
+    director: 12
+    genres:
+    - 7
+- model: films.movie
+  pk: 11
+  fields:
+    name: Hvězdné války
+    year: 1976
+    slug: '19'
+    description: Star Wars (česky původně též Hvězdné války) je americká multimediální
+      franšíza žánru space opera, vytvořená Georgem Lucasem. Její hlavní částí je
+      devítidílná řada celovečerních filmů, ke které se postupně přidala další díla.
+    avg_rating: null
+    image_url: https://upload.wikimedia.org/wikipedia/commons/6/6c/Star_Wars_Logo.svg
+    director: 13
+    genres:
+    - 1
+    - 5
+- model: films.movie
+  pk: 12
+  fields:
+    name: Annie Hall
+    year: 1977
+    slug: h
+    description: 'Annie Hall'' is as Woody Allen as Woody Allen gets – hilarious,
+      neurotic and occupied by the realisation that whatever happens, life is going
+      to trample all over you. It’s also one of the greatest romantic comedies every
+      made (with some of the funniest lines: ‘Don’t knock masturbation. It’s sex with
+      someone I love’).'
+    avg_rating: null
+    image_url: https://media.timeout.com/images/100464171/400/225/image.jpg 400w,https://media.timeout.com/images/100464171/750/422/image.jpg
+      750w,https://media.timeout.com/images/100464171/1024/576/image.jpg
+    director: 14
+    genres:
+    - 2
+- model: films.movie
+  pk: 13
+  fields:
+    name: The Ring
+    year: 2002
+    slug: q
+    description: Zní to jako další z neuvěřitelných příběhů. Existuje videopáska plná
+      obrazů jako vystřižených z těch nejtíživějších snů. Tam, kde byla přehrána,
+      zazní záhy telefon s varováním, že ten, kdo ji zhlédl, zemře přesně za sedm
+      dnů.
+    avg_rating: null
+    image_url: https://image.pmgstatic.com/cache/resized/w360/files/images/film/posters/159/935/159935151_94aa42.jpg
+    director: 15
+    genres:
+    - 3
+    - 6
+- model: films.comment
+  pk: 1
+  fields:
+    movie: 1
+    author: Milan
+    text: Tenhle film vážně žeru
+    rating: 42
+    created_at: 2023-05-20 16:23:24.167549+00:00
+- model: films.comment
+  pk: 2
+  fields:
+    movie: 1
+    author: Milan
+    text: Miluju to je to randál jak sviňa
+    rating: 95
+    created_at: 2023-05-20 19:05:47.102542+00:00
+- model: films.genre
+  pk: 1
+  fields:
+    name: Scifi
+- model: films.genre
+  pk: 2
+  fields:
+    name: Comedy
+- model: films.genre
+  pk: 3
+  fields:
+    name: Horor
+- model: films.genre
+  pk: 4
+  fields:
+    name: Drama
+- model: films.genre
+  pk: 5
+  fields:
+    name: Action
+- model: films.genre
+  pk: 6
+  fields:
+    name: Thriller
+- model: films.genre
+  pk: 7
+  fields:
+    name: Western
+- model: films.genre
+  pk: 8
+  fields:
+    name: Fantasy
+- model: films.genre
+  pk: 9
+  fields:
+    name: Krimi
+- model: films.director
+  pk: 1
+  fields:
+    name: Steven Spielberg
+    birth_year: 1946
+    slug: e
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/6/67/Steven_Spielberg_by_Gage_Skidmore.jpg
+- model: films.director
+  pk: 2
+  fields:
+    name: Martin Scorsese
+    birth_year: 1942
+    slug: d
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/1/1c/Martin_Scorsese_Berlinale_2010_%28cropped2%29.jpg
+- model: films.director
+  pk: 3
+  fields:
+    name: Alfred Hitchcock
+    birth_year: 1899
+    slug: c
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/6/63/Alfred_Hitchcock_NYWTS.jpg
+- model: films.director
+  pk: 4
+  fields:
+    name: James Cameron
+    birth_year: 1954
+    slug: b
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/f/fe/James_Cameron_by_Gage_Skidmore.jpg
+- model: films.director
+  pk: 5
+  fields:
+    name: Joey Lauren Adams
+    birth_year: 1971
+    slug: a
+    photo_url: https://www.filmbug.com/images/people/195.jpg
+- model: films.director
+  pk: 6
+  fields:
+    name: Frank Darabont
+    birth_year: 1959
+    slug: f
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/1/19/Frank_Darabont_at_the_PaleyFest_2011_-_The_Walking_Dead_panel.jpg
+- model: films.director
+  pk: 7
+  fields:
+    name: Francis Ford Coppola
+    birth_year: 1939
+    slug: g
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/0/05/Francis_Ford_Coppola_2011_CC.jpg
+- model: films.director
+  pk: 8
+  fields:
+    name: Christopher Nolan
+    birth_year: 1970
+    slug: h
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/9/95/Christopher_Nolan_Cannes_2018.jpg
+- model: films.director
+  pk: 9
+  fields:
+    name: Sidney Lumet
+    birth_year: 1924
+    slug: i
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/e/e4/SidneyLumet07TIFF.jpg
+- model: films.director
+  pk: 10
+  fields:
+    name: Peter Jackson
+    birth_year: 1961
+    slug: j
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/4/4a/Peter_Jackson_SDCC_2014.jpg
+- model: films.director
+  pk: 11
+  fields:
+    name: Quentin Tarantino
+    birth_year: 1963
+    slug: k
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/0/0b/Quentin_Tarantino_by_Gage_Skidmore.jpg
+- model: films.director
+  pk: 12
+  fields:
+    name: Sergio Leone
+    birth_year: 1920
+    slug: m
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/7/78/SERGIO_LEONE.jpg
+- model: films.director
+  pk: 13
+  fields:
+    name: George Lucas
+    birth_year: 1944
+    slug: q
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/a/a0/George_Lucas_cropped_2009.jpg
+- model: films.director
+  pk: 14
+  fields:
+    name: Woody Allen
+    birth_year: 1935
+    slug: l
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/8/89/Woody_Allen_Cannes_2016.jpg
+- model: films.director
+  pk: 15
+  fields:
+    name: Gore Verbinski
+    birth_year: 1964
+    slug: y
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/b/b8/Gore_Verbinski_1.JPG
+- model: films.actor
+  pk: 1
+  fields:
+    name: Angelina Jolie
+    birth_year: 1975
+    slug: '10'
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/c/c2/Angelina_Jolie_Global_Summit_2014.jpg
+    description: Angelina Jolie Pitt, narozená jako Angelina Jolie Voight, je americká
+      filmová herečka a zvláštní vyslankyně Vysokého komisaře OSN pro uprchlíky. Jedná
+      se o dceru amerického herce Jona Voighta a jeho bývalé manželky Marcheline,
+      rozené Bertrand. Dříve pracovala také jako modelka.
+- model: films.actor
+  pk: 2
+  fields:
+    name: Reese Witherspoon
+    birth_year: 1976
+    slug: '11'
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/8/85/Reese_Witherspoon_at_TIFF_2014.jpg
+    description: Reese Witherspoonová je americká herečka a filmová producentka, která
+      se také zabývá charitativními projekty. Svou hereckou kariéru zahájila již v
+      dětství, její první velká role byla ve filmu V měsíčním svitu. Postupem času
+      získávala větší role, první taková příležitost přišla ve filmu Pravá blondýnka.
+- model: films.actor
+  pk: 3
+  fields:
+    name: Kanye West
+    birth_year: 1977
+    slug: '12'
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/2/21/Kanye_West_at_the_Met_Gala_in_2019.png
+    description: Ye (/jeɪ/ YAY; born Kanye Omari West /ˈkɑːnjeɪ/ KAHN-yay; June 8,
+      1977) is an American rapper, singer, songwriter, record producer, and fashion
+      designer. Miluje rakouského pána na h.
+- model: films.actor
+  pk: 4
+  fields:
+    name: Ashton Kutcher
+    birth_year: 1978
+    slug: '9'
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/8/85/Ashton_Kutcher_by_David_Shankbone_2010_NYC.jpg
+    description: Christopher Ashton Kutcher je americký herec, scenárista, producent,
+      investor a bývalý model. Svoji kariéru začal jako model. K herectví se dostal
+      v roli Michaela Kelsa v televizním seriálu Zlatá sedmdesátá, který byl vysílán
+      po dobu osmi sezón.
+- model: films.actor
+  pk: 5
+  fields:
+    name: Chris Pratt
+    birth_year: 1976
+    slug: '8'
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/9/99/Chris_Pratt_2018.jpg
+    description: Chris Pratt je americký herec známý zejména svými televizními rolemi
+      v seriálech Parks and Recreation a Everwood. Ve vedlejších rolích se objevil
+      ve filmech Co ty jsi za číslo?, Noc je ještě mladá, Zásnuby na dobu neurčitou
+      a Válka nevěst.
+- model: films.actor
+  pk: 6
+  fields:
+    name: Kim Kardashian
+    birth_year: 1980
+    slug: '8'
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/0/08/President_Trump_Meets_with_Sentencing_Commutation_Recipients_%2849624188912%29_%28cropped%29.jpg
+    description: Kim Kardashian je americká televizní osobnost, modelka a podnikatelka
+      arménského původu a bývalá manželka rappera Kanyeho Westa.
+- model: films.actor
+  pk: 7
+  fields:
+    name: Beyoncé
+    birth_year: 1981
+    slug: '7'
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/1/17/Beyonc%C3%A9_at_The_Lion_King_European_Premiere_2019.png
+    description: Beyoncé Giselle Knowles-Carter, známá pod jménem Beyoncé, je americká
+      zpěvačka, herečka, producentka, textařka a módní návrhářka. Narodila se a vyrůstala
+      v Houstonu v Texasu. Během dětství se účastnila mnoha pěveckých a tanečních
+      soutěží.
+- model: films.actor
+  pk: 8
+  fields:
+    name: Scarlett Johansson
+    birth_year: 1984
+    slug: '6'
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/6/60/Scarlett_Johansson_by_Gage_Skidmore_2_%28cropped%29.jpg
+    description: Scarlett Johanssonová, rodným jménem Scarlett Ingrid Johansson, je
+      americká herečka a zpěvačka. Debutovala ve filmu Všude dobře, doma nejlíp. O
+      dva roky později byla nominována na Independent Spirit Award v kategorii Nejlepší
+      herečky v hlavní roli za svůj výkon ve snímku Manny & Lo.
+- model: films.actor
+  pk: 9
+  fields:
+    name: Eddie Murphy
+    birth_year: 1961
+    slug: '5'
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/5/5f/Eddie_Murphy_by_David_Shankbone.jpg
+    description: Edward „Eddie“ Regan Murphy je americký herec a komik. Byl součástí
+      obsazení Saturday Night Live během let 1980 až 1984. Živil se jako stand up
+      komik a umístil se v žebříčku Comedy Central 100 Nejlepších komiků všech dob
+      na 10.
+- model: films.actor
+  pk: 10
+  fields:
+    name: Josh Gad
+    birth_year: 1981
+    slug: '4'
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/0/07/41st_Annie_Awards%2C_Josh_Gad_%28crop%29.jpg
+    description: Joshua Gad je americký filmový, televizní, divadelní a dabingový
+      herec. Narodil se na Floridě ve městě Hollywood. Je židovského původu. V roce
+      1999 dostudoval univerzitu v USA na Floridě. Od roku 2002 pracuje jako filmový
+      a televizní herec.
+- model: films.actor
+  pk: 11
+  fields:
+    name: Robert De Niro
+    birth_year: 1943
+    slug: '1'
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/5/58/Robert_De_Niro_Cannes_2016.jpg
+    description: One of the greatest actors of all time, Robert De Niro was born on
+      August 17, 1943 in Manhattan, New York City, to artists Virginia (Admiral) and
+      Robert De Niro Sr. His paternal grandfather was of Italian descent, and his
+      other ancestry is Irish, English, Dutch, German, and French.
+- model: films.actor
+  pk: 12
+  fields:
+    name: Halle Bailey
+    birth_year: 2000
+    slug: '2'
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/4/4d/Halle_Nov_2018_%28cropped%29.png
+    description: Halle Bailey was born on March 27, 2000 in Atlanta, Georgia, USA.
+      She is an actress and composer, known for The Little Mermaid (2023), Last Holiday
+      (2006) and V pasti času (2018).
+- model: films.actor
+  pk: 13
+  fields:
+    name: Isabel May
+    birth_year: 2000
+    slug: '3'
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/e/e0/Isabel_May_during_an_interview%2C_December_2021.png
+    description: Isabel May is an American actress. She starred as Katie Cooper on
+      the Netflix series Alexa & Katie and had a recurring role as Veronica Duncan
+      on the CBS series Young Sheldon. She held the lead role of Zoe Hull in film
+      Run Hide Fight.
