@@ -1,0 +1,23 @@
+version: "3.3"
+services:
+  web:
+    restart: unless-stopped
+    build: .
+    pull_policy: build
+    volumes:
+      - ./gamdb:/app
+
+    labels:
+      - "traefik.enable=true"
+
+      - "traefik.http.routers.gawa-rb-http.rule=Host(`rb.gawa.dtbox.cz`)"
+      - "traefik.http.routers.gawa-rb-http.entrypoints=web"
+      - "traefik.http.routers.gawa-rb-http.middlewares=gawa-rb-redirect-https@docker"
+
+      - "traefik.http.middlewares.gawa-rb-redirect-https.redirectscheme.scheme=https"
+      - "traefik.http.middlewares.gawa-rb-redirect-https.redirectscheme.permanent=true"
+
+      - "traefik.http.routers.gawa-rb-https.rule=Host(`rb.gawa.dtbox.cz`)"
+      - "traefik.http.routers.gawa-rb-https.entrypoints=websecure"
+      - "traefik.http.routers.gawa-rb-https.tls=true"
+      - "traefik.http.routers.gawa-rb-https.tls.certresolver=letsencrypt"
